@@ -1,0 +1,23 @@
+{
+  "name": "dlweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dlweb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dlweb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveenvedala/dlweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naveenvedala/dlweb/issues"
+  },
+  "homepage": "https://github.com/naveenvedala/dlweb#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
