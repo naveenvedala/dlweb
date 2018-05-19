@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "build": "ng build --prod",
-    "start": "ng serve",
+    "start": "npm run build:client-and-server-bundles && npm run webpack:server && node dist/server.js",
     "test": "ng test",
     "lint": "tslint ./src/**/*.ts -t verbose",
     "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
